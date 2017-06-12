@@ -1,7 +1,7 @@
 {
   "name": "nifty-theme-react",
   "description": "React wrapper for nifty theme",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Samuel Amoah <sa.am@programmer.net",
   "dependencies": {
     "babel-cli": "^6.24.1",
@@ -29,5 +29,5 @@
     "compile": "npm run lint && babel lib --out-dir dist --copy-files",
     "lint": "eslint lib"
   },
-  "main": "babel/index.js"
+  "main": "dist/index.js"
 }
