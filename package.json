@@ -29,5 +29,5 @@
     "lint": "eslint lib",
     "postinstall": "babel lib --out-dir dist --copy-files"
   },
-  "main": "dist/index.js"
+  "main": "lib/index.jsx"
 }
