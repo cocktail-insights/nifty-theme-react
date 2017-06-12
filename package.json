@@ -14,6 +14,7 @@
     "nifty"
   ],
   "devDependencies": {
+    "babel-plugin-transform-react-jsx": "^6.24.1",
     "enzyme": "^2.8.2",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^14.1.0",
@@ -28,5 +29,5 @@
     "compile": "npm run lint && babel lib --out-dir dist --copy-files",
     "lint": "eslint lib"
   },
-  "main": "lib/index.jsx"
+  "main": "babel/index.js"
 }
