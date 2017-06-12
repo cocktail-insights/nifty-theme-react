@@ -26,7 +26,7 @@
     "prepublish": "npm run compile",
     "test": "npm run compile && tape test/*.js",
     "compile": "npm run lint && babel lib --out-dir dist --copy-files",
-    "lint": "eslint lib",
+    "lint": "eslint lib"
   },
   "main": "lib/index.jsx"
 }
