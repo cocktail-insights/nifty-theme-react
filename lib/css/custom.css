@@ -159,12 +159,12 @@ body {
 }
 
 .ct-scrollbar::-webkit-scrollbar-track {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .ct-scrollbar::-webkit-scrollbar {
-    height: 8px;
-    width: 10px;
+  height: 8px;
+  width: 10px;
 }
 
 .ct-scrollbar::-webkit-scrollbar-thumb {
@@ -182,5 +182,80 @@ body {
   width: 10px;
 }
 
+.panel-bord-no::after {
+  border: none !important;
+}
 
+.cls-brand {
+  margin-top: 50px;
+}
 
+.cls-brand .brand-title {
+  position: relative;
+  margin-left: -20px;
+  margin-top: -20px;
+  opacity: 1;
+  font-size: 12px;
+}
+
+.cls-brand .brand-title .brand-beta {
+  position: absolute;
+  top: 0;
+  margin: -2px 0 0 43px;
+}
+
+.ct-primary {
+  background: #107ff2';
+}
+
+.ct-text-primary {
+  background: #107ff2';
+}
+
+.ct-warning {
+  background: #ff9900;
+}
+
+.ct-text-warning {
+  color: #ff9900;
+}
+
+.ct-mint {
+  background: #00f1bc;
+}
+
+.ct-text-mint {
+  color: #00f1bc;
+}
+
+.ct-danger {
+  background: #fd0028;
+}
+
+.ct-text-danger {
+  color: #fd0028;
+}
+
+.ct-success {
+  background: #43f900;
+}
+
+.ct-text-success {
+  color: #43f900;
+}
+
+.ct-pink {
+  background: #f500b2;
+}
+
+.ct-text-pink {
+  color: #f500b2'
+}
+
+.ct-purple {
+  background: #8a11f2;
+}
+
+.ct-text-purple {
+  color: #8a11f2;
+}
