@@ -29,5 +29,5 @@
     "compile": "npm run lint && babel lib --out-dir dist --copy-files",
     "lint": "eslint lib"
   },
-  "main": "babel/index.js"
+  "main": "dist/index.js"
 }
