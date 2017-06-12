@@ -1,0 +1,186 @@
+body {
+  margin: 0 !important;
+}
+
+.ct-mar-rgt-200 {
+  margin-right: 200px;
+}
+
+.ct-mar-lft-200 {
+  margin-left: 200px;
+}
+
+
+.ct-mar-top-100 {
+  margin-top: 100px;
+}
+
+.ct-mar-top-70 {
+  margin-top: 80px;
+}
+
+.ct-mar-rgt-70 {
+  margin-right: 70px;
+}
+
+.ct-mar-lft-70 {
+  margin-left: 70px;
+}
+
+.ct-mar-lft-50 {
+  margin-left: 50px;
+}
+
+.ct-mar-rgt-50 {
+  margin-right: 50px;
+}
+
+.ct-mar-rgt-10 {
+  margin-right: 10px;
+}
+
+.ct-mar-lft-10 {
+  margin-left: 10px;
+}
+
+.ct-mar-lft-20 {
+  margin-left: 20px;
+}
+
+.ct-mar-btm-10 {
+  margin-bottom: 10px;
+}
+
+.ct-mar-top-10 {
+  margin-top: 10px;
+}
+
+.ct-mar-btm-15 {
+  margin-bottom: 15px;
+}
+
+.ct-mar-rgt-15 {
+  margin-right: 15px;
+}
+
+.ct-mar-rgt-5 {
+  margin-right: 5px;
+}
+
+.ct-mar-btm-5 {
+  margin-bottom: 5px;
+}
+
+.ct-mar-hor-5 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.ct-mar-ver-5 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.ct-mar-top-15 {
+  margin-top: -15px;
+}
+
+.ct-mar-10 {
+  margin: 10px;
+}
+
+.ct-mar-lft-5 {
+  margin-left: 5px;
+}
+
+.ct-mar-top-5 {
+  margin-top: 5px;
+}
+
+.ct-pad-top-10 {
+  padding-top: 10px;
+}
+.ct-pad-top-5 {
+  padding-top: 5px;
+}
+.ct-pad-ver-5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.ct-pad-5 {
+  padding: 5px;
+}
+
+.ct-pad-ver-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.ct-mar-hor-50 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.ct-col-lft {
+  margin-left: -15px;
+  padding-left: 25px !important;
+}
+
+.ct-pad-hor-2 {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.img-thumbnail {
+  border-radius: 0px;
+}
+
+.ct-no-bord-afer:after {
+  border: none !important;
+}
+
+.ct-empty-page {
+  width: auto; max-width: 100%;
+}
+
+.bootstrap-select {
+  margin-bottom: 0;
+}
+
+.ct-mar-all-5 {
+  margin: 5px;
+}
+
+.scrollable {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  max-height: 300px;
+}
+
+.ct-scrollbar::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.ct-scrollbar::-webkit-scrollbar {
+    height: 8px;
+    width: 10px;
+}
+
+.ct-scrollbar::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  background-color: #5fa2dd;
+}
+
+.ct-scrollbar-sm::-webkit-scrollbar {
+  width: 8px;
+}
+
+.ct-scrollbar-lg::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+
