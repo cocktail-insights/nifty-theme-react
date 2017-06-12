@@ -1,7 +1,7 @@
 {
   "name": "nifty-theme-react",
   "description": "React wrapper for nifty theme",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "AdGeek Dev Team <developers@adgeekpro.com>",
   "dependencies": {
     "babel-cli": "^6.24.1",
