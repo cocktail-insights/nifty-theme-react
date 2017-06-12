@@ -8,11 +8,3 @@ export default function NiftyTheme(props) {
     <div>{ props.children }</div>
   );
 }
-
-NiftyTheme.propTypes = {
-  children: React.PropTypes.node,
-};
-
-NiftyTheme.defaultProps = {
-  children: React.PropTypes.node,
-};
