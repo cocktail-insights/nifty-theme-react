@@ -192,16 +192,14 @@ body {
 
 .cls-brand .brand-title {
   position: relative;
-  margin-left: -20px;
-  margin-top: -20px;
   opacity: 1;
-  font-size: 12px;
+  font-size: 22px;
 }
 
-.cls-brand .brand-title .brand-beta {
-  position: absolute;
-  top: 0;
-  margin: -2px 0 0 43px;
+.brand-title > .brand-beta {
+  font-size: 12px;
+  vertical-align: top;
+  margin-left: 2px;
 }
 
 .ct-primary {
