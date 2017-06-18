@@ -203,11 +203,11 @@ body {
 }
 
 .ct-primary {
-  background: #107ff2';
+  background: #107ff2;
 }
 
 .ct-text-primary {
-  background: #107ff2';
+  background: #107ff2;
 }
 
 .ct-warning {
@@ -247,7 +247,7 @@ body {
 }
 
 .ct-text-pink {
-  color: #f500b2'
+  color: #f500b2;
 }
 
 .ct-purple {
@@ -257,3 +257,13 @@ body {
 .ct-text-purple {
   color: #8a11f2;
 }
+
+
+[class^="ag-"] {
+  display: none;
+}
+
+.on {
+  display: block;
+}
+
