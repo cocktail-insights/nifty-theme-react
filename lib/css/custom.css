@@ -259,7 +259,7 @@ body {
 }
 
 
-[class^="ag-"] {
+[class*="ag-"] {
   display: none;
 }
 
