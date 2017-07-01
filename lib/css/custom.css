@@ -267,3 +267,111 @@ body {
   display: block;
 }
 
+.panel-heading-no-line::after {
+  border-bottom: none !important;
+}
+
+.panel-heading-no-line + .panel-body {
+  padding-top: 10px;
+}
+
+.modal-transparent .modal-content {
+  background: transparent;
+  border: none;
+}
+
+.text-md {
+  font-size: 12px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.brand-beta {
+  font-size: 12px;
+  position: absolute;
+  margin-left: 5px;
+}
+
+.text-superscript {
+  vertical-align: top;
+}
+
+.ribbon-wrapper {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  z-index: 11;
+}
+
+.ribbon {
+  text-align: center;
+  -webkit-transform: rotate(45deg);
+  -moz-transform:    rotate(45deg);
+  -ms-transform:     rotate(45deg);
+  -o-transform:      rotate(45deg);
+  position: relative;
+  padding: 7px 0;
+  left: -45px;
+  top: 25px;
+  width: 200px;
+  color: white;
+  background-color: @CT_ORANGE_COLOR;
+  -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+  -moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
+  box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
+}
+
+.ribbon:before, .ribbon:after {
+  content: "";
+  border-top:   3px solid @CT_ORANGE_COLOR;
+  border-left:  3px solid transparent;
+  border-right: 3px solid transparent;
+  position:absolute;
+  bottom: -3px;
+}
+
+.ribbon:before {
+  left: 0;
+}
+
+.ribbon:after {
+  right: 0;
+}
+
+.form-control-feedback {
+  pointer-events: all;
+  cursor: default;
+}
+
+[data-copy-text]:hover {
+  cursor: pointer;
+}
+
+.hr-sm {
+  width: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btm-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.ct-bg-primary {
+  background: @CT_PRIMARY_COLOR
+}
+
+.text-white {
+  color: #f2f2f2;
+}
+
+.ct-mar-top-200 {
+  margin-top: 200px;
+}
